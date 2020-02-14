@@ -1,3 +1,6 @@
-const t = (a,b) => a + b;
+import React from 'react';
+import { render } from 'react-dom';
 
-console.log(t(1,1));
+import App from './App';
+
+render(<App />, document.getElementById('app'));
