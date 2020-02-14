@@ -3,9 +3,13 @@ import React from 'react';
 import './App.css'
 
 import Header from './components/Header';
+import PostList from './components/PostList';
 
 const App = () => (
-  <Header />
+  <>
+    <Header />
+    <PostList />
+  </>
 )
 
 export default App;
