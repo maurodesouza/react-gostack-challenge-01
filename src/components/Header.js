@@ -6,7 +6,7 @@ const Header = () => (
     <img width="170" src={Logo} alt="Facebook logo"/>
     <div>
       <span>Meu perfil</span>
-      <i class="fas fa-user-circle"></i>
+      <i className="fas fa-user-circle"></i>
     </div>
   </header>
 )
