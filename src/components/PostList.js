@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import PostItem from './PostItem';
+
 class PostList extends Component {
   state = {
     posts: [
@@ -80,7 +82,11 @@ class PostList extends Component {
   };
 
   render() {
-    return <p> Essa é a lista de posts </p>
+    return (
+      <ul>
+        {this.state.posts.map(post => <PostItem key={post.id} post={post}/>)}
+      </ul>
+    )
   }
 }
 

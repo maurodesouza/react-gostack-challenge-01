@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +9,11 @@
 
 body {
   background: #f2f2f2;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+li {
+  list-style: none;
 }
 
 header {
@@ -31,4 +37,44 @@ header div {
 header i {
   margin-left: 10px;
   font-size: 2rem;
+}
+
+.post_item_container {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+  margin: 20px auto 0;
+  box-shadow: 0 4px 10px rgba(121, 121, 121, 0.1),
+    0 -4px 10px rgba(124, 124, 124, 0.1);
+}
+
+.post_item_avatar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.post_item_avatar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.post_item_avatar h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.post_item_avatar p {
+  font-size: 11px;
+  color: #9a9a9a;
+}
+
+.post_item_avatar + p {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
