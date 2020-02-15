@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import Comment from './Comment';
 
 const PostItem = ({ post }) => (
   <li className="post_item_container">
@@ -12,6 +14,9 @@ const PostItem = ({ post }) => (
       </div>
       <p> {post.content} </p>
     </div>
+    <ul>
+      {post.comments.map(comment => <Comment key={comment.id} comment={comment} />)}
+    </ul>
   </li>
 )
 
