@@ -17,7 +17,7 @@ class PostList extends Component {
           {
             id: 1,
             author: {
-              name: "Rafael Fernandes",
+              name: "Tiago Rafael",
               avatar: "https://randomuser.me/api/portraits/thumb/men/25.jpg"
             },
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet risus eu sem vehicula, non.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet risus eu sem vehicula, non.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet risus eu sem vehicula, non."
